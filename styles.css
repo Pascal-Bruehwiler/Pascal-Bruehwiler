@@ -1,5 +1,37 @@
+
 body {
-    margin: 0;
+    margin-bottom: 60px;
     background: lightgrey;
     text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h3, h2, h1 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+h1, .h1 {
+    font-size: 20px;
+}
+
+h2, .h2 {
+    font-size: 16px;
+}
+
+h3, .h3 {
+    font-size: 14px;
+}
+
+table {
+    caption-side: bottom;
+    border-collapse: collapse;
+  }
+
+thead, tbody, tfoot, tr, td, th {
+  border-color: inherit;
+  border-style: solid;
+  border-width: 0;
 }
