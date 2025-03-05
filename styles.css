@@ -1,6 +1,24 @@
 body {
     margin-bottom: 30px;
     background: white;
-    text-align: center;
+    text-align: left;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(0,50,75);
+}
+
+h1, h2, h3 {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+ul, p {
+    margin-left: 20px;
+}
+
+.btn-primary {
+    background-color: rgb(0,155,145);
+    border-color: rgb(0,78,72);
+}
+.btn-primary:hover {
+    background-color: rgb(0,78,72);
 }
