@@ -1,0 +1,49 @@
+* {
+    margin: 0.5%;
+    padding: 0.5%;
+    box-sizing: none;
+
+}
+
+h1 {
+    text-align: none;
+    background-color: none;
+    padding: 1%;
+}
+
+code {
+    background-color: none;
+    box-sizing: content-box;
+    text-align: none;
+    padding: .5%;
+    margin: .5%;
+    width: none;
+}
+
+.Beispiel{
+    border: none;
+    box-sizing: content-box;
+    width: none;
+    padding: 1%;
+}
+
+.Anleitung{
+    border: none;
+    border-radius: none;
+    box-sizing: content-box;
+    width: auto;
+    padding: 1%;
+}
+
+img {
+    width: auto;
+    height: auto;
+    position: static;
+    margin-left: none;
+    align-self: none;
+}
+
+.ImageAllignement {
+    display: flex;
+    align-items:center;
+}
