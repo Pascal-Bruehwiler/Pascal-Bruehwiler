@@ -215,11 +215,16 @@ def loop():
     """
 
     i = 1
+    counter = 0
     while i <= 10:
+        counter += 1
         print(i)
         if i == 10:
             print("Aufgabe 7 gelöst!\n")
             return 1
+        if counter > 10:
+            print("Aufgabe 7 nicht gelöst!\n")
+            return 0
 
 ###############################################################################################
 
