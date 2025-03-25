@@ -67,7 +67,8 @@ Welche Funktion wird aufgerufen?
 #### Aufgabe 10
 
 Das Verschlüsselte Wort wurde mit der Cäsar-Verschlüsselung verschlüsselt.  
-Google nach Tools, um die Verschlüsselung zu brechen (Brute Force Tools).
+Das Wort ist ein englisches Wort.  
+Google nach Tools, um die Verschlüsselung zu brechen (Caesar Cipher Solver).
 
 ## Lösungen
 
