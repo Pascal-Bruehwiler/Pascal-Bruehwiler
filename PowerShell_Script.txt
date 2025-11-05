@@ -1,0 +1,19 @@
+# Einfaches PowerShell-Skript für Schnupperlehrlinge
+
+# 1) Begrüssung
+Write-Host "Hallo Schnuppi"
+
+# 2) Zufällige Konsolenfarbe testen
+$farben = 'Yellow','Magenta','Cyan'
+$zufallsFarbe = Get-Random $farben
+Write-Host "Wir wechseln kurz die Farbe zu: $zufallsFarbe" -ForegroundColor $zufallsFarbe
+
+# 3) Mini-Zahlenratespiel (1-10)
+$geheim = Get-Random -Minimum 1 -Maximum 10
+$versuch = Read-Host "Rate die Zahl (1-10)"
+
+if ($versuch -eq $geheim) {
+    Write-Host "Treffer! Die Zahl war $geheim." -ForegroundColor Green
+} else {
+    Write-Host "Leider falsch. Es war $geheim." -ForegroundColor Yellow
+}
