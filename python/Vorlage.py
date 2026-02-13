@@ -17,4 +17,4 @@ t.bk(50) #backward
 t.lt(45) #rotate left
 
 setPos(0,100)
-t.goto(50,150)
+t.moveTo(50,150)
